@@ -1,0 +1,12 @@
+import React from 'react'
+
+const Title = ({title,description}) => {
+  return (
+    <>
+        <h1 className='text-3xl sm:text-5xl font-medium'>{title}</h1>
+        <p className='max-w-2xl text-center text-gray-500 mb-6'>{description}</p>
+    </>
+  )
+}
+
+export default Title
