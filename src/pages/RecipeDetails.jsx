@@ -4,8 +4,8 @@ import PageCard from '../Components/PageCard'
 import {recipes} from '../assets/assets'
 import assets from '../assets/assets'
 import ReviewCard from '../Components/ReviewCard'
-import CommentCard from '../components/CommentCard'
-import Subscribe from '../components/Subscribe'
+import CommentCard from '../Components/CommentCard'
+import Subscribe from '../Components/Subscribe'
 const RecipeDetails = () => {
     const {id}=useParams()
     const item=recipes.find((item)=>item.id===Number(id))
@@ -48,7 +48,7 @@ const RecipeDetails = () => {
             {/* Ingredients */}
                 <div className='max-w-6xl mx-auto px-6 mt-8'>
                     <div className='flex flex-col gap-4 justify-center'>
-                        <h1 className='text-3xl sm:tex-4xl font-bold text-center'>Ingredients</h1>
+                        <h1 className='text-3xl sm:text-4xl font-bold text-center'>Ingredients</h1>
                     <div className='grid grid-cols-1 sm:grid-cols-3 mt-5 space-x-25 space-y-5 items-start justify-center mt-5'>
                         {
                             item.ingredients.map((ingredient,index)=>(
