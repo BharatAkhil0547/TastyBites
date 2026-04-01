@@ -38,7 +38,7 @@ const Contact = () => {
 
         </div>
         {/* form  */}
-        <div className='mt-15'>
+        <div className='mt-14'>
           <form className='grid grid-cols-1 sm:grid-cols-2 gap-10 justify-center h-[450px]'>
             <img src={assets.formImage} alt="form" className='max-sm:hidden w-full h-[450px] pr-4' />
             <div className='flex flex-grow flex-col items-start h-[450px]'>
