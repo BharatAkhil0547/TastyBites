@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
       <PageCard title='Contact Us' description='Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim.'/>
       <div className='max-w-5xl mx-auto px-4 py-12'>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-15'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
           {/* location */}
           <div className=' flex flex-col items-center justify-center gap-4 border-2 border-[#E63946] bg-yellow-100'>
             <img src={assets.LocationRed} alt="location"  className='mt-4'/>
@@ -75,8 +75,8 @@ const Contact = () => {
         <Title title="Companies That Trust Us" description='Donec dapibus mauris id odio ornare tempusuis sit amet accumsan.'/>
 
 
-        <div className='w-full  sm:h-[20] max-sm:h-[40] bg-[#E63946]'>
-          <ul className='flex flex-wrap items-center justify-center gap-5 sm:gap-20 px-4 py-4'>
+        <div className='w-full bg-[#E63946]'>
+          <ul className='flex flex-wrap items-center justify-center gap-5 sm:space-x-[40px] px-4 py-4'>
             <li className='flex gap-2'>
               <img src={assets.Logo1} alt="" />
               <p className='text-white font-bold text-md'>Logoipsum</p>
